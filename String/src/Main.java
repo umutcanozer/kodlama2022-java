@@ -18,6 +18,7 @@ public class Main {
 		System.out.println(mesaj.indexOf('a'));
 		System.out.println(mesaj.lastIndexOf('a')); */
 		
+		
 		String yeniMesaj = mesaj.replace("ü","u");
 		System.out.println(yeniMesaj);
 		System.out.println(mesaj.substring(6,10));
