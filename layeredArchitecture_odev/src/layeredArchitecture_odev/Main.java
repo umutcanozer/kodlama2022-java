@@ -20,7 +20,7 @@ public class Main {
 	public static void main(String[] args) {
 		BaseLogger[] loggers = { new DatabaseLogger(), new ConsoleLogger(), new FileLogger(), new MailLogger() };
 
-		Course course = new Course(13215, "Java Programming Language 2022", -5,
+		Course course = new Course(13215, "Java Programming Language 2022", -10,
 				"This course will teach you Java programming language.");
 		CourseManager courseManager = new CourseManager(new HibernateCourseDao(), loggers);
 		try {
